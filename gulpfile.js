@@ -35,7 +35,7 @@ Gulp.watch(['js/*.js','css/*.css','img/*']).on('change',()=>{
     console.log('Se han realizado cambios en las imagenes');
     compressCSS();
     compressJS();
-    compressImg();
+    //compressImg();
 });
 
 Gulp.watch(['index.html','dist/**/*.js']).on('change', () => {
