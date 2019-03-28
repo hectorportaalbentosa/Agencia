@@ -220,3 +220,24 @@ input{
     color: #0d0842;
     font-style: oblique;
 }
+footer{
+    background-color: #0d0842;
+    color: white;
+}
+
+.news{
+    width: 45%;
+}
+
+.enlaceNews{
+    border-style: solid;
+    border-color: yellow;
+    background-color: yellow;
+    padding: 8px;
+    font-size: 23px;
+    color: #0d0842;
+}
+
+.newsletter{
+    border-top: 1px solid black;
+}
