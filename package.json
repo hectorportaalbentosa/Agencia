@@ -1,0 +1,20 @@
+{
+  "name": "ejercicio",
+  "version": "1.0.0",
+  "description": "En Geekshubs Academy no podemos quedarnos quietos y hemos decidido ampliar nuestra área de negocio, con los viajes online Por ello nos hemos puesto en contacto con un diseñador y nos han pasado el siguiente diseño. ![alt text](https://github.com/GeeksHubsAcademy/Actividad_1/blob/master/Agencia%20de%20viajes%20Bootcamp.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-uglify-es": "^1.0.4"
+  }
+}

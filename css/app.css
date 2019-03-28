@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "Glyphicons Halflings";
+    src: url("../fonts/glyphicons-halflings-regular.svg");
+}
+
+.principal{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../nathan-anderson-316188-unsplash.jpg");
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imagen{
+    margin-top: -35px;
+    height: 175px;
+}
+
+.central{
+    margin-top: 25px;
+
+}
+
+.imagen-ico{
+    margin-top: 15px;
+    height: 45px;
+    width: 50px;
+}
+
+.imagen-ico-ws{
+    margin-top: 15px;
+    height: 75px;
+    width: 125px;
+}
+
+.enlace-n{
+    color:white;
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+.vertical-center{
+    display:flex;
+    align-items: center;
+    text-align: center;
+    min-height: 30vw;
+}
+
+.centro-portada{
+    color:white;
+}
+
+.h1portada{
+    font-weight: bold;
+    font-size: 55px ;
+}
+.h3portada{
+    font-weight: light;
+}
+.enlaceCentral{
+    text-align: center;
+    border-style: solid;
+    border-color: yellow;
+    background-color: yellow;
+    padding: 8px;
+    font-size: 23px;
+    color: #0d0842;
+    font-style: oblique;
+}
+
+.enlaceCentral:hover{
+    text-align: center;
+    text-decoration: underline;
+    border-style: solid;
+    border-color: yellow;
+    background-color: yellow;
+    padding: 8px;
+    font-size: 23px;
+    color: #0d0842;
+    font-style: oblique;
+}
+.boton{
+    padding-top: 15px;
+    text-align: center;
+}
+
+.tit1{
+    margin-top: -70px;
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.tit2{
+    margin-top: -25px;
+    margin-left: 49px;
+    font-size: 25px;
+    font-weight: bold;
+
+}

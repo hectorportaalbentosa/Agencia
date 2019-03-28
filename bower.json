@@ -1,0 +1,18 @@
+{
+  "name": "ejercicio",
+  "description": "En Geekshubs Academy no podemos quedarnos quietos y hemos decidido ampliar nuestra área de negocio, con los viajes online Por ello nos hemos puesto en contacto con un diseñador y nos han pasado el siguiente diseño. ![alt text](https://github.com/GeeksHubsAcademy/Actividad_1/blob/master/Agencia%20de%20viajes%20Bootcamp.jpg)",
+  "main": "index.js",
+  "authors": [
+    "porta0 <1smrt.hporta@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/porta0/paginaPersonal",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendors",
+    "test",
+    "tests"
+  ]
+}
