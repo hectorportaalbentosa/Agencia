@@ -191,5 +191,32 @@
     font-size: 23px;
     color: yellow;
     font-weight: bold;
+}
 
+.map{
+    margin-top:5%; 
+    margin-bottom:5%; 
+    margin-right: 5%;
+}
+
+.form{
+    margin-top:5%; 
+}
+
+.barraForm{
+    border-top: 3px solid rgb(53, 110, 218);
+    width: 10%;
+}
+
+input{
+    width: 47%;
+}
+.enlaceForm{
+    border-style: solid;
+    border-color: yellow;
+    background-color: yellow;
+    padding: 8px;
+    font-size: 23px;
+    color: #0d0842;
+    font-style: oblique;
 }

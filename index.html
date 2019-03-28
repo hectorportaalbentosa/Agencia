@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Title</title>
+    <title>GeekHubs Travels</title>
     <link
       rel="stylesheet"
       href="public/vendors/bootstrap/dist/css/bootstrap.min.css"
@@ -28,7 +28,7 @@
                 </a>
               </div>
               <div class="col-4">
-                <a href="#" class="enlace-n">
+                <a href="#second" class="enlace-n">
                   Quiénes somos
                 </a>
               </div>
@@ -114,7 +114,7 @@
       </div>
     </section>
     <section>
-        <div class="container-fluid second">
+        <div class="container-fluid second" id="second">
             <div class="row">
                 <div class="col-md-4 offset-md-3 quien">
                   <h1>Quien Somos</h1>
@@ -135,9 +135,37 @@
             </div>
     </section>
     <section>
-        <div class="container-fluid second">
-            <div class="row">
-            </div>
+        <div class="container where">
+            <div class="row justify-content-around">
+                <div class="col-4 map">
+                  <div class="mapouter"><div class="gmap_canvas"><iframe width="561" height="637" id="gmap_canvas" src="https://maps.google.com/maps?q=GeekHubs%20Space&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>Werbung: <a href="https://www.pureblack.de">Pure Black GmbH</a></div><style>.mapouter{position:relative;text-align:right;height:637px;width:561px;}.gmap_canvas {overflow:hidden;background:none!important;height:637px;width:561px;}</style></div>                </div>
+                <div class="col-4 form">
+                  <p>E: enquiry@artiotravel.com</p>
+                  <p>P: 0264 123 4567</p>  
+                  <br>
+                  <p>Give us a call or drop by anytime, we endeavour to answer all enquires within 24 hours on business days.</p>
+                  <br>
+                  <p>We are open from 8.30 AM - 4.00 PM week days.</p>
+                  <hr class="barraForm" align="left">
+                  <br>
+                  <input type="text" placeholder="Name*" required>
+                  &nbsp;&nbsp;
+                  <input type="text" placeholder="Email*" required>
+                  <br>
+                  <br>
+                  <input type="text" placeholder="Phone">
+                  &nbsp;&nbsp;
+                  <input type="text" placeholder="Country">
+                  <br>
+                  <br>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="Message"></textarea>
+                  <sub>* PLEASE COMPLETE ALL FIELDS CORRECTLY</sub>
+                  <br><br>
+                  <div>
+                    <a class="enlaceForm" href="#">Enviar mensaje</a>
+                  </div>
+                </div>
+              </div>
         </div>
     </section>
     <script
@@ -148,6 +176,6 @@
       type="text/javascript"
       src="public/vendors/bootstrap/dist/js/bootstrap.min.js"
     ></script>
-    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="dist/js/Scripts.min.js"></script>
   </body>
 </html>
